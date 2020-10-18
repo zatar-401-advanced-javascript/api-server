@@ -7,7 +7,7 @@
 ### Links and Resources
 
 - [Visual Validation](https://javascript-401.netlify.app/) Click the “Module 2 (API)” Storefront link
-- [Swagger Documentation](https://app.swaggerhub.com/apis/Zatar/api-server/0.1)
+- [Swagger Documentation](https://app.swaggerhub.com/apis/AbdulhakimZatar/api-server/0.1)
 
 ### Setup
 

@@ -31,13 +31,6 @@
       "id": 2
     },
     {
-      "category": "test3",
-      "name": "test3",
-      "display_name": "test3",
-      "description": "test3 test3 test3",
-      "id": 3
-    },
-    {
       "name": "cats food",
       "category": "cats",
       "description": "cat food",
