@@ -1,0 +1,49 @@
+{
+  "categories": [
+    {
+      "category": "test3",
+      "name": "test3",
+      "display_name": "test3",
+      "description": "test3 test3 test3 PUT",
+      "id": 1
+    },
+    {
+      "name": "test2",
+      "display_name": "test2",
+      "description": "test2 test2 test2 PATCH",
+      "id": 2,
+      "category": "test2"
+    }
+  ],
+  "products": [
+    {
+      "category": "test1",
+      "name": "test1",
+      "display_name": "test1",
+      "description": "test1 test1 test1",
+      "id": 1
+    },
+    {
+      "category": "test2",
+      "name": "test2",
+      "display_name": "test2",
+      "description": "test2 test2 test2",
+      "id": 2
+    },
+    {
+      "category": "test3",
+      "name": "test3",
+      "display_name": "test3",
+      "description": "test3 test3 test3",
+      "id": 3
+    },
+    {
+      "name": "cats food",
+      "category": "cats",
+      "description": "cat food",
+      "price": 2.99,
+      "inStock": 3,
+      "id": 4
+    }
+  ]
+}
