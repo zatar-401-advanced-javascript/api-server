@@ -31,6 +31,11 @@ describe('API Server', () => {
         expect(results.status).toBe(202);
       });
     });
+    it('PATCH /categories/:id should respond with 202', async () => {
+      await mockRequest.patch('/categories/1').then((results) => {
+        expect(results.status).toBe(202);
+      });
+    });
     it('DELETE /categories/:id should respond with 202', async () => {
       await mockRequest.delete('/categories/1').then((results) => {
         expect(results.status).toBe(202);
@@ -60,6 +65,11 @@ describe('API Server', () => {
     });
     it('PUT /products/:id should respond with 202', async () => {
       await mockRequest.put('/products/1').then((results) => {
+        expect(results.status).toBe(202);
+      });
+    });
+    it('PATCH /products/:id should respond with 202', async () => {
+      await mockRequest.patch('/products/1').then((results) => {
         expect(results.status).toBe(202);
       });
     });
