@@ -24,7 +24,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "jest --coverage --verbose",
-    "watch": "jest --verbose --coverage --watchAll",
+    "watch": "jest --verbose --coverage --watchAll ",
     "lint": "eslint '**/*.js'"
   },
   "repository": {
