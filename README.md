@@ -1,4 +1,4 @@
-# LAB - Class 07
+# LAB - Class 08
 
 ## Project: API Server
 
@@ -16,12 +16,13 @@
 i.e.
 
 - `PORT` - Port Number
+- `MONGODB_URI` - DB Link
 
 #### How to initialize/run your application
 
 - `npm init -y`
-- `npm i express dotenv`
-- `npm i -D jest supertest`(For tests)
+- `npm i express dotenv mongoose cors`
+- `npm i -D jest supertest eslint @code-fellows/supergoose`(For tests)
 
 #### How to use your library
 
