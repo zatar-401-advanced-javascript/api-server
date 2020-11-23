@@ -14,17 +14,17 @@ router.patch('/:model/:id', updateHandle);
 router.delete('/:model/:id', deleteHandle);
 
 async function getAllHandle(req, res) {
-  const result = await req.model.read();
-  const count = result.length;
+  const results = await req.model.read();
+  const count = results.length;
 
-  res.status(200).json({ count, result });
+  res.status(200).json({ count, results });
 }
 
 async function getHandle(req, res) {
   const id = req.params.id;
-  const result = await req.model.read(id);
+  const results = await req.model.read(id);
 
-  res.status(200).json(result);
+  res.status(200).json(results);
 }
 
 function addHandle(req, res) {
